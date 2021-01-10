@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+        background-image: url(/image/image1.jpeg);    
+        color:aliceblue;
+        background-repeat: no-repeat;
+        background-size: cover;
+         font-size: 20px;  
+        }
+
+        th{
+            text-align: center;
+            text-transform: uppercase;        
+        }
+        th h2{
+            background:rgba(1 , 0 ,0 ,0.7);
+            padding:10px;
+            border-radius: 10px 10px 50% 50%;
+        }
+        
+        input[type="text"]{
+            background:rgba(0, 0,0, 0.3);
+            border:0px;
+            border-bottom: 3px solid darkblue;
+            widows: 30%;
+            padding:10px;
+            border-radius: 10px;
+            outline: none;
+            font-size: 20px;
+            justify-content: center;
+            box-shadow: 0 0 10px yellow;
+        }
+       
+        table{
+            width:50%;
+            text-shadow: 0 0 5px yellow;
+            height:600px;
+            margin: auto;
+            background: rgba(0, 0,0, 0.3);
+            border-radius: 25px;
+            padding:20px;
+
+        }
+        table td,tr{
+            padding:5px;
+        }
+        .submit{
+            width:95px;
+            background-color:chartreuse;
+            padding:15px;
+            font-size: 22px;
+            border-radius: 10px;
+            outline: none;
+            border:0px;
+        }
+        ::placeholder{
+            font-size: 22px;
+            color:wheat
+        }
+        @media screen and (max-width: 500px){
+        table td,th{
+           display: block;
+        }
+        body{
+            background-attachment: scroll;
+            
+        }
+        }
+       
+        
+       
+    </style>
+</head>
+<body>
+   
+    <table>
+        <th colspan="4">
+             <h2>Simple Register Form</h2>
+        </th>
+       
+        <tr>
+           
+            <td>
+                <input type="text" placeholder="First Name" autofocus>
+            </td>
+            <td colspan="3">
+                <input type="text" placeholder="Last Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="Father Name">
+            </td>
+            <td colspan="3">
+                <input type="text" placeholder="Mother Name">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center">
+                <label for="sex">SEX</label>
+            </td>
+            <td>
+                <input type="radio" name="sex">Male
+            </td> 
+            <td>   
+                <input type="radio" name="sex">Female
+            </td>
+        </tr>
+        <tr>
+                
+                <td><input type="text" placeholder="Qualification"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="Mobile Number">
+            </td>
+        </tr>
+       
+        <tr>
+            <td style="text-align: center;">
+                <label for="hobies">HOBBIES</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="hobies" id="">Reading
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="hobies" id="">Sleeping
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="hobies" id="">Playing
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="hobies" id="">Music
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center;">
+                <input class="submit" type="button" value="Submit">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

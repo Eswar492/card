@@ -1,0 +1,87 @@
+body{
+    margin: none;
+    width:100%;
+    --app-navlink-color: #484242;
+    --searchbar-border-color: #c1b4b4;
+}
+header{
+    width:80%;
+}
+nav{
+    float:right;
+    align-items: center;
+    width:55%;
+    margin: auto;
+}
+.nav_link{
+    margin-right: 50px;
+    text-decoration: none;
+    color:var(--app-navlink-color)
+    
+}
+#span_nav{
+    position:absolute;
+    right:10px;
+}
+img{
+    width:150px;
+    height:50px;
+
+}
+h1{
+    text-align: center;
+    font-size: 56px;
+}
+p{
+    text-align: center;
+    width:50%;
+    margin:auto;
+    color: var( --app-navlink-color);
+}
+#search{
+    width:25%;
+    margin:50px auto;
+    
+}
+.text_box{
+    width:10rem;
+    height:1.5rem;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-left: 40px;
+}
+.search_button{
+    width:7rem;
+    height:1.8rem;
+margin-left: 6.95rem;
+background-color: black;
+color: white;
+border:1px solid black;
+border-radius: 2px;
+}
+#span_search{
+    margin-left: -10rem;
+}
+.img_main{
+    width:250px;
+    height:200px;
+}
+.cards{
+    display: inline-block;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+    margin:0px 3px;
+    color: #796767;
+}
+h2{
+    color: black;
+    font-size: 1.4rem;
+    margin: 2px 0;
+    font-weight: 500;
+}
+    
+
+.card-body{
+    width: 70%;
+    margin: auto;
+   
+}
