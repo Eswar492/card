@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+    <style>
+        body{
+            margin: 0px;
+            margin-bottom: 500px;
+        }
+        header{
+            background-image: url(/image/tiger.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+           /* background: rgba(0, 0, 0, 0.1);*/
+            widows: 98.6%;
+            margin: auto;
+            padding:10px;
+            margin-bottom: 0px; 
+            position: sticky;
+            top: -60px; 
+        }
+        .heading h1{
+            color:darkcyan;
+            margin:0px;
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+       
+        .nav-link{
+            text-decoration: none;    
+            background-color: rgb(32, 63, 61);
+            color:white;
+            padding:5px 20px;
+            border-radius: 10px;
+            margin:0px 20px;
+            align-items: center;
+        }
+        .nav-links{
+            width:70%;
+            margin: auto;
+        }
+        #nav-search{
+            border-radius: 10px;
+            width:10rem;
+            height:1.3rem;
+            background-color: gainsboro;
+            color:darkgreen;
+            font-size: 22px;
+            outline: none;
+            position: absolute;
+            right:10%;
+            padding:3px 8px;
+        }
+        ::placeholder{
+            color:white;
+            text-align: center;
+        }
+        .nav-link:hover{
+            background: linear-gradient(50deg,black,red);
+            box-shadow: 0 0 5px magenta;
+        }
+        /*------home-------*/
+
+        .home-h{
+            margin: 0px;
+            padding:20px;
+        }
+        .home-p{
+            width:75%;
+            text-align: center;
+            float: left;
+            padding-left:20px;
+        }
+        section{
+            margin: 0px;
+        }
+        #home{
+            width:100%;
+            margin: auto;
+            background-color: silver;
+        }
+        #home img{
+            width:300px;
+            height:300px;
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+        #home img:hover{
+            opacity: 1;
+        }
+        /*-----about-----*/
+        #about{
+            width:100%;
+            margin: auto;
+            background-color: silver;
+        }
+        .about-h{
+            margin: 0px;
+            padding:20px;
+            text-align: end;
+            
+        }
+        .about-p{
+            width:75%;
+            padding-right: 20px;
+            text-align: center;
+            float: right;
+        }
+        #about img{
+            width:300px;
+            height:300px;
+            border-radius: 40%;
+            opacity: 1;
+            margin-left:50px;
+        }
+        /*-----images-----*/
+        .image{
+            background-color: rgb(230, 201, 201);
+        
+        }
+        #images{
+            margin:0px 0px 20px 0px;
+            padding:10px;
+            text-align: center;
+        }
+
+        .image-img{
+            width:300px;
+            height:300px;
+            padding:10px;
+            box-shadow: 0 0 5px green;
+            border:2px solid black;
+            margin:20px;
+
+        }
+        hr{
+            width:50%;
+             margin:0px auto;
+              height:2px;
+              border:2px dashed black;
+              background-color: chartreuse;
+        }
+        .table{
+            background-color: darkcyan;
+            padding:10px;
+            color:white;
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+            width:60%;
+            margin:auto;
+        }
+        table td:nth-child(even){
+            background: cadetblue;
+        }
+        table td:nth-child(odd){
+            background:darkkhaki;
+        }
+        table th,td{
+            border:1px solid black;
+            text-align: center;
+            padding:10px;
+            box-shadow: 0 0 5px black;
+            
+        }
+        th{
+            background-color: darkmagenta;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>MY HOME</h1>
+        </div>
+        <div class="nav-links">
+        <nav style="display: flex;">
+            <a class="nav-link" href="#home">HOME</a>
+            <a class="nav-link" href="#about">ABOUT</a>
+            <a class="nav-link" href="#images">IMAGES</a>
+            <a class="nav-link" href="/cards/form.html" target="blank">FORM</a>
+            <a class="nav-link" href="#table">TABLE</a>
+            <a class="nav-link" href="/cards/1.cards_bs.html" target="blank">MY CARDS</a>
+            <div>
+                <input id="nav-search" type="text" placeholder="Search">
+            </div>
+        </nav>
+    </div>
+    </header>
+    <section>
+        <div id="home">
+            <h2 class="home-h">Home</h2>
+            <article>
+            <p class="home-p">Lorem ipsum dolor sit amet <b>bold</b> adipisicing <i>italic</i>elit. Ducimus <del>delet</del> <ins>incert</ins> officiis, doloremque voluptatibus <mark>mark</mark> asperiores similique nobis! Enim laborum pariatur  autem cum sint, perferendis quis velit animi vitae sapiente provident expedita?<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eos aspernatur dolorem natus vero quia reiciendis atque et nihil quibusdam, suscipit rem iusto ea expedita omnis consequuntur eaque corrupti consectetur placeat officiis quo fugit! Architecto reprehenderit ex illo temporibus hic fuga voluptatibus <br><br> Consectetur, eveniet? Quo expedita perferendis animi illum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, excepturi.</p>
+            <img src="/image/tiger.jpg" alt="" srcset="">
+            </article>
+        </div>
+        <hr>
+        <div id="about">
+            <h2 class="about-h">About</h2>
+            <p class="about-p">Lorem ipsum dolor sit amet adipisicing elit. Ducimus   officiis, doloremque voluptatibus asperiores similique nobis! Enim laborum pariatur  autem cum sint, perferendis quis velit animi vitae sapiente provident expedita?<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eos aspernatur dolorem natus vero quia reiciendis atque et nihil quibusdam, suscipit rem iusto ea expedita omnis consequuntur eaque corrupti consectetur placeat officiis quo fugit! Architecto reprehenderit ex illo temporibus hic fuga voluptatibus <br><br> Consectetur, eveniet? Quo expedita perferendis animi illum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, excepturi.</p>
+            <img src="/image/tiger.jpg" alt="" srcset="">
+        </div>
+        <hr>
+        <div class="image">
+            <h2 id="images">IMAGES</h2>
+            <img class="image-img" src="/image/tiger.jpg" alt="" srcset="">
+            <img class="image-img" src="/image/tiger.jpg" alt="" srcset="">
+            <img class="image-img" src="/image/tiger.jpg" alt="" srcset="">
+            <img class="image-img" src="/image/tiger.jpg" alt="" srcset="">
+            <img class="image-img" src="/image/tiger.jpg" alt="" srcset="">
+            <img class="image-img" src="/image/tiger.jpg" alt="" srcset="">
+            <img class="image-img" src="/image/tiger.jpg" alt="" srcset="">
+            <img class="image-img" src="/image/tiger.jpg" alt="" srcset="">
+        </div>
+        <hr>
+        </form>
+        <div class="table">
+        <h2 id="table">TABLE</h2>
+        <table>
+            <thead>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>SEX</th>
+                <th>MOBILE NUMBER</th>
+                <th>EMAIL</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Eswar</td>
+                <td>23</td>
+                <td>Male</td>
+                <td>6369873527</td>
+                <td>meswar492@gmail.com</td>
+                </tr>
+            <tr>
+                <td>Kumar</td>
+                <td>36</td>
+                <td>Male</td>
+                <td>9213156516</td>
+                <td>abc@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Raj</td>
+                <td>46</td>
+                <td>Male</td>
+                <td>9641156516</td>
+                <td>cdgf@gamil.com</td>
+            </tr>
+            <tr>
+                <td>priya</td>
+                <td>26</td>
+                <td>Female</td>
+                <td>7546521512</td>
+                <td>cdgggf@gamil.com</td>
+            </tr>
+            <tr>
+                <td>Eswar</td>
+                <td>23</td>
+                <td>Male</td>
+                <td>6369873527</td>
+                <td>dgf@gamil.com</td>
+                </tr>
+            <tr>
+                <td>Kumar</td>
+                <td>36</td>
+                <td>Male</td>
+                <td>9213156516</td>
+                <td>cdgfwd@gamil.com</td>
+            </tr>
+            <tr>
+                <td>Raj</td>
+                <td>46</td>
+                <td>Male</td>
+                <td>9641156516</td>
+                <td>cdlliugf@gamil.com</td>
+            </tr>
+            <tr>
+                <td>priya</td>
+                <td>26</td>
+                <td>Female</td>
+                <td>7546521512</td>
+                <td>cjddf@gamil.com</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    
+</body>
+</html>
